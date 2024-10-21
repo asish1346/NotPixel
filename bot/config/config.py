@@ -30,13 +30,24 @@ class Settings(BaseSettings):
 
     ENABLE_SOCKETS: bool = False
     ENABLE_CHECK_UPDATED_IMAGE_MODE: bool = False
+    ENABLE_SERVER_MODE: bool = True
+
     ENABLE_RANDOM_CUSTOM_TEMPLATE: bool = True
+    RANDOM_TEMPLATE_IDS: list[int] = [
+        355876562, 7585928876, 7023006756,
+        5522474073, 482706122, 799818229,
+        355876562, 922551766, 6488960520,
+        1475063146, 1811879982,
+        6355200889, 355876562, 6536791856,
+        355876562
+    ]
+
     ENABLE_DRAW_CUSTOM_TEMPLATE: bool = True
-    CUSTOM_TEMPLATE_ID: int = 1440524069
+    CUSTOM_TEMPLATE_ID: int = 355876562
 
     ENABLE_SSL: bool = False
 
-    PAINT_REWARD_MAX: int = 5
+    PAINT_REWARD_MAX: int = 7
     ENERGY_LIMIT_MAX: int = 6
     RE_CHARGE_SPEED_MAX: int = 7
 
@@ -45,7 +56,9 @@ class Settings(BaseSettings):
 
     USE_PROXY_FROM_FILE: bool = True
 
-    # LEGACY CONFIGURATIONS
+
+
+    # ------ LEGACY CONFIGURATIONS ------
     ENABLE_DRAW_ART: bool = False
     DRAW_ART_COORDS: list[dict] = [
         {
@@ -57,12 +70,8 @@ class Settings(BaseSettings):
     DRAW_RANDOM_X_DIAPOSON: list[int] = [390, 435]
     DRAW_RANDOM_Y_DIAPOSON: list[int] = [415, 445]
     DRAW_RANDOM_COLORS: list[str] = ["#3690EA"]
-
     ENABLE_EXPERIMENTAL_X3_MODE: bool = True
-
-    UNABLE_JOIN_TG_CHANNELS: bool = False # NOT RECOMMENDED
-
+    UNABLE_JOIN_TG_CHANNELS: bool = False
+    # ------ LEGACY CONFIGURATIONS ------
 
 settings = Settings()
-
-
