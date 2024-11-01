@@ -1,4 +1,5 @@
 #!/bin/bash-low-unrelated-histories
+# Check for existence of folders venv
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
     python3 -m venv venv
@@ -7,6 +8,7 @@ fi
 echo "Activating virtual environment..."
 source venv/bin/activate
 
+# Check for the presence of a set flag in the virtual environment
 if [ ! -f "venv/installed" ]; then
     if [ -f "requirements.txt" ]; then
 		echo "Installing wheel for faster installing"
@@ -29,9 +31,11 @@ else
 	echo "Skipping .env copying"
 fi
 
+#Updating the local repository without deleting changes
+
 if [ ! -f ".git" ]; then
   git init
-  git remote add origin git@github.com:asish1346/NotPixel.git
+  git remote add origin git@github.com:asish1346/Notpixel.git
 fi
 
 git stash
