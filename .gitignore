@@ -169,8 +169,6 @@ sessions*/
 
 *.session
 
-bot/assets/templates
-bot/assets/templatesV3
 user_agents.json
 
 node_modules
@@ -179,4 +177,12 @@ package-lock.json
 package.json
 
 image-server
+
+bot/assets/templates/*.png
+
+templates.html
+templates.json
+
+./templates.html
+./templates.json
 
