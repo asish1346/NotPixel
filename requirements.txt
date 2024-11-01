@@ -9,6 +9,7 @@ beautifulsoup4==4.12.3
 better-proxy==1.1.5
 Brotli==1.1.0
 centrifuge-python==0.3.1
+cloudscraper==1.2.71
 colorama==0.4.6
 DateTime==5.5
 fake-useragent==1.5.1
