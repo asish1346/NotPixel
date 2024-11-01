@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     ]
 
     ENABLE_DRAW_CUSTOM_TEMPLATE: bool = True
-    CUSTOM_TEMPLATE_ID: int = 355876562
+    CUSTOM_TEMPLATE_ID: int = 5618299103
 
     ENABLE_SSL: bool = False
 
@@ -53,7 +53,7 @@ class Settings(BaseSettings):
     RE_CHARGE_SPEED_MAX: int = 7
 
     BOOSTS_BLACK_LIST: list[str] = ['invite3frens', 'INVITE_FRIENDS', 'TON_TRANSACTION', 'BOOST_CHANNEL', 'ACTIVITY_CHALLENGE', 'CONNECT_WALLET']
-    TASKS_TODO_LIST: list[str] = ["pumpkin", "x:notcoin", "x:notpixel", "paint20pixels", "leagueBonusSilver", "leagueBonusGold", "leagueBonusPlatinum", "channel:notpixel_channel", "channel:notcoin", "boinkTask", "makePixelAvatar", "joinSquad"]
+    TASKS_TODO_LIST: list[str] = ["pumpkin", "x:notcoin", "x:notpixel", "paint20pixels", "leagueBonusSilver", "leagueBonusGold", "leagueBonusPlatinum", "channel:notpixel_channel", "channel:notcoin", "boinkTask", "makePixelAvatar", "joinSquad", "nikolai"]
 
     USE_PROXY_FROM_FILE: bool = False
 
