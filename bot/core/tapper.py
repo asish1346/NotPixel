@@ -186,7 +186,7 @@ class Tapper:
 
             self.start_param = random.choices([ref_id, 'f2087936510', 'f1830057262'], weights=[80, 15, 5])[0]
 
-            peer = await self.tg_client.resolve_peer('notpx_bot')
+            peer = await self.tg_client.resolve_peer('notpixel')
             InputBotApp = types.InputBotAppShortName(bot_id=peer, short_name="app")
 
             web_view = await self.tg_client.invoke(RequestAppWebView(
