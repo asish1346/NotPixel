@@ -4,7 +4,7 @@
 
 [![Static Badge](https://img.shields.io/badge/Telegram-Bot%20Link-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/np/app?startapp=f2087936510_s737078)
 
-# 🎨AUTO FARM FOR np 🎨
+# 🎨AUTO FARM FOR NotPixel 🎨
 
 > [!WARNING]
 > I am not responsible for your account. Please consider the potential risks before using this bot.
